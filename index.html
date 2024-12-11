@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <style>
+        body{
+            background-color: rgb(212, 212, 8);
+            font-family: sans-serif;
+        }
+        .cabecalho{
+            background-color: rgb(224, 228, 25);
+            border: 2px solid yellowgreen;
+            box-sizing: border-box;
+            width: 30%;
+            text-align: left;
+            font-size: 13px;
+            color: white;
+            text-shadow: 2px 2px 2px black;
+        }
+        h1{
+            text-align: center;
+            padding: 6px;
+        }
+        .menu{
+            width: 60%;
+            background-color: rgb(52, 224, 52);
+            text-align: left;
+            margin-left: auto;
+            margin-right: 30px;
+        }
+        .navegacao{
+            text-align: center;
+            padding: 30px;
+        }
+        nav .nome{
+            text-align: right;
+            background-color: rgb(141, 240, 141);
+            color: white;
+            text-shadow: 2px 2px 2px black;
+            padding: 5px 15px 5px 0;
+        }
+        .login-h2{
+            text-align: left;
+            background-color: rgb(141, 240, 141);
+            color: white;
+            text-shadow: 2px 2px 2px black;
+            padding: 5px 0 5px 15px;
+        }
+        ul li{
+            list-style: none;
+            text-align: right;
+            display: block;
+        }
+        p{
+            text-decoration: none;
+            color: white;
+        }
+        a{
+            padding: 3px;
+            border-radius: 2px;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: aqua;
+        }
+        input{
+            margin-right: 60px;
+            width: 90%;
+            height: 25px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        input:hover{
+            background-color: aqua;
+        }
+        button{
+            background-color: yellow;
+            color: green;
+            border-radius: 5px;
+            border: none;
+            margin-top: 10px;
+            font-size: 18px;
+            padding: 5px 10px 5px 10px;
+        }
+        button:hover{
+            background-color: green;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+            <h1>Cadastro Empresa Jotap</h1>
+    </header>
+    <main class="menu">
+        <section class="navegacao">
+            <nav>
+                <h2 class="nome">Jotap.pi</h2>
+                <ul>
+                    <li><p>Nao tem conta no site?<a href="#">Clique aqui!</a></p></li>
+                </ul>
+            </nav>
+            <section class="login">
+                <h2 class="login-h2">Login</h2>
+                <input type="text" placeholder="Primeiro Nome">
+                <input type="text" placeholder="Ultimo Nome">
+                <br>
+                <input type="text" placeholder="Seu e-mail">
+                <br>
+                <input type="text" placeholder="Estado Civil Atual">
+                <br>
+                <button>Enviar</button>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
